@@ -517,31 +517,31 @@ clear: both;
 
   /* Hero */
   .hero-area h1 {
-    width: 80%; 
+    width: 60%; 
   }
 
   /* Aside */
   aside .content-wrapper {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 320px;
+    width: 30%;
   }
 
   /* Features */
   .features h2 {
-    width: 80%;
+    width: 70%;
   }
 
   .features article {
-    flex-basis: 320px;
+    flex-basis: 33%;
   }
 
   /* Reviews */ 
   .reviews article div {
-    width: 480px;
+    width: 42%;
   }
 
   /* ==========================================================================
@@ -553,7 +553,7 @@ clear: both;
   }
 
   .contact-section .content-wrapper h2 {
-    margin-bottom: 97px;
+    margin-bottom: 40px;
   }
 
 
@@ -565,7 +565,7 @@ clear: both;
   }
 
   .faq-content {
-    flex-basis: flex-start;
+    flex-basis: 35%;
   }
 }
 
