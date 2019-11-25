@@ -108,11 +108,13 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
+  color: white;
 }
  
 ul, 
 ol {
  list-style-type: none;
+ font-weight: bold;
 }
  
 a {
@@ -120,20 +122,29 @@ a {
   text-decoration: none;
 }
  
+h1 {
+  font-weight: 500;
+  font-size: 3.75em;
+}
+
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.875em;
+  font-size: 2.25em;
+  font-weight: 500;
 }
  
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.125em;
+  font-size: 1.875em;
   margin: 20px 0;
+  font-weight: 500;
 }
  
 p {
-	
+  font-size: 1.125em;
+  line-height: 24pt;
+  font-weight: 400;
 }
  
 img {
@@ -145,7 +156,7 @@ figure {
 }
  
 address {
- font-size: 1.125em;
+ font-style: normal;
 }
  
 .content-wrapper {
@@ -160,13 +171,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-    flex-flow: row wrap;
+  flex-flow: row wrap;
+  background-color: #202322;
 }
 
 /* Header styles */
 
 header {
-padding: 15px 0;
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -228,6 +240,36 @@ footer .social-icons p {
    
 footer .copyright {
   margin: 20px 0;
+  text-align: center;
+}
+
+.hero-area {
+  background-color: #1a2c2a;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* ------------------- Mobile Styles - Homepage ----------------------- */
@@ -237,6 +279,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  height: 500px;
 }
 
 /* Aside */
@@ -246,6 +289,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 /* Features */
@@ -253,11 +297,13 @@ aside {
 .features {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
 .features h2 {
   margin-bottom: 60px;
+  font-weight: 500;
 }
 
 .features article {
@@ -282,6 +328,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -569,6 +616,7 @@ clear: both;
   /* Hero */
   .hero-area h1 {
     width: 60%; 
+    height: 600px;
   }
 
   /* Aside */
@@ -582,6 +630,11 @@ clear: both;
   }
 
   /* Features */
+  .features {
+    height: 800px;
+    background-color: #1a2c2a;
+  }
+
   .features h2 {
     width: 70%;
   }
